@@ -1,3 +1,4 @@
+"use client";
 import { Fixture } from "@/types";
 import { useEffect, useState } from "react";
 import moment from "moment";

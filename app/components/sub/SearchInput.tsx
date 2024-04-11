@@ -81,7 +81,7 @@ const SearchInput: React.FC<{ teams: Team[] }> = ({ teams }) => {
   }, []);
 
   return (
-    <div className="flex justify-center items-center w-full max-w-lg relative">
+    <div className="text-white flex justify-center items-center w-full max-w-lg relative">
       <input
         type="text"
         value={input}

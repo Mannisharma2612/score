@@ -1,5 +1,5 @@
-import { Standing, Team } from "@/types";
 import "server-only";
+import { Standing, Team } from "@/types";
 import { getStandings } from "./getStandings";
 
 export default async function getTeams(): Promise<Team[]> {
